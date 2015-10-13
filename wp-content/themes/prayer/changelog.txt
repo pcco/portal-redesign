@@ -1,0 +1,17 @@
+= v1.2.0 = 05.13.2015
+	1. Security Update
+
+= v1.1.0 = 08.06.2014
+	New Features
+		1. Parallax Effects
+	Update
+		1. LayerSlider Update
+	Bug Fixes
+		1. CountDown at header changed back to circles, updated timecircles.js and shortcodes.php
+		2. Font family issue resolved completely. Button, Heading, Title, and paragraph text.
+		3. Event Counter Issue resolved.
+		4. Services Widget styling updated.
+		5. Theme responsive and other minor fixes.
+
+= v1.0 = 07.29.2014
+	 * Initial Release
