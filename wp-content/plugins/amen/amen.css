@@ -1,0 +1,120 @@
+div.amen-wrap form { display:inline; }
+
+.ul-addw2p {
+	margin:0;
+	padding:0;
+}
+
+.praying {
+	text-align: right;
+	float: right;
+	clear: right;
+	font-style: italic;
+	font-size: 11px;
+	margin-top: 2px;
+}
+
+div.amen-wrap {
+	padding: 5px 10px;
+	background: #F8F8F8;
+	margin: 0px 7px 11px 7px;
+	overflow: hidden;
+	clear: both;
+	font-size: 13px;
+	border-color: #B6C0B8;
+	border-style: solid;
+	border-width: 0px 0px 0px 3px;
+	box-shadow: 4px 4px 3px -2px #CCC;
+}
+div.amen-wrap:hover {
+	background-color: #F0F0F0;
+	padding-left: 7px;
+	border-left-width: 6px;
+}
+div.amen-wrap iframe {
+	margin-bottom: 5px;
+	float:right;
+}
+
+div.amen-urgent { border-color: #B93232; }
+
+div.included-in-favs {
+	background-color: #E3E3E3;
+	border-left-width: 6px;
+	padding-left: 7px;
+}
+div.included-in-favs:hover {
+	background-color: #E3E3E3;
+	border-left-width: 6px;
+	padding-left: 7px;
+}
+
+div.super-private {
+	border-width: 0px 4px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+div.super-private:hover {
+	border-width: 0px 6px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+div.included-in-favs.super-private {
+	border-width: 0px 6px;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+
+div.pray-request { float: left; }
+
+div.amen-alt { background-color: #eee !important; }
+
+div.amen-inactive { background: #E0A37F !important; }
+
+
+
+
+div.amen-header {
+	padding-left: 0px;
+	margin-bottom: 0px;
+	font-size: 19px;
+	text-transform: uppercase;
+	height: 48px;
+	clear: both;
+	display:block;
+	background:url('logo-bullet.png');
+	background-repeat: no-repeat !important;
+	background-position: 0 16px !important;
+}
+
+.amen-submission {
+	font-size: 12px;
+}
+
+div.amen-update {
+	padding: 5px 10px;
+	background: #FFF;
+	margin: 5px 10px 5px 10px;
+	overflow: hidden;
+	clear: both;
+	font-size: 12px;
+	box-shadow: inset 3px 2px 7px -1px #BBB;
+	border-radius: 3px;
+}
+
+div.amen-inner-wrap {
+	overflow: hidden;
+}
+
+form.amen-admin input[type="text"] {
+	width: 300px;
+}
+
+div.amen-not-approved {
+	border-left: 10px #333 solid;
+	padding-left: 3px;
+}
+div.amen-not-approved:hover {
+	border-left: 10px #333 solid;
+	padding-left: 3px;
+}

@@ -1631,7 +1631,7 @@ function wp_audio_shortcode( $attr, $content = '' ) {
 		'loop'     => wp_validate_boolean( $atts['loop'] ),
 		'autoplay' => wp_validate_boolean( $atts['autoplay'] ),
 		'preload'  => $atts['preload'],
-		'style'    => 'width: 100%; visibility: hidden;',
+		'style'    => 'width: 100%; visibility:visible; !important',
 	);
 
 	// These ones should just be omitted altogether if they are blank

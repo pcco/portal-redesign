@@ -1,0 +1,16 @@
+#block_content_first > div > div{
+	background-position-x: 50%; 
+}
+.navbar .btn-navbar,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar:focus{
+	background-color: #000;
+    background-image: none;
+    padding:14px;
+}
+#navbar{
+	    margin-top: 50px;
+    margin-left: 30px;
+
+    width: auto;
+}
