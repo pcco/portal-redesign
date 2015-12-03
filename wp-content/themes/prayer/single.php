@@ -90,12 +90,18 @@
 						<div class="post-auther-box">
 							<?php if(print_blog_thumbnail($post->ID,$image_size) <> ''){ ?><div class="frame"><?php echo print_blog_thumbnail($post->ID,$image_size);?></div><?php }?>
 							<h2><?php echo get_the_title();?></h2>
+<<<<<<< HEAD
 							<!-- cancel post-detail
+=======
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 							<div class="post-detail">
 								<ul>
 									<li><a href="<?php echo get_permalink();?>"><span><?php _e('By','crunchpress');?></span>: <?php echo get_the_author();?></a></li>
 									<li><a href="<?php echo get_permalink();?>"><span><?php _e('Posted on:','crunchpress');?></span> <?php echo get_the_date(get_option('date_format'));?></a></li>
+<<<<<<< HEAD
 									
+=======
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 									<li>
 										<?php
 											//Get Post Comment 
@@ -108,7 +114,10 @@
 									<li><?php the_tags();?></li>
 								</ul>
 							</div>
+<<<<<<< HEAD
 							-->
+=======
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 							<?php the_content();?>
 						</div>
 						<?php if($post_social == 'enable'){ ?>
@@ -118,17 +127,25 @@
 						</div>
 						<?php }?>
 						<div class="auther-box">
+<<<<<<< HEAD
 							<!--cancel About Author 
 							<h4><?php _e('About Author','crunchpress');?></h4>
 
+=======
+							<h4><?php _e('About Author','crunchpress');?></h4>
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 							<div class="frame"><a href="<?php echo get_permalink();?>"><?php echo get_avatar(get_the_author_meta( 'ID' ));?></a></div>
 							<div class="text-box">
 								<strong class="title"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a></strong>
 								<p><?php echo mb_substr(get_the_author_meta( 'description' ),0,360);?></p>
 							</div>
+<<<<<<< HEAD
 							-->
 						</div>
 
+=======
+						</div>
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 						<?php comments_template(); ?>						
 					</div>	
 					

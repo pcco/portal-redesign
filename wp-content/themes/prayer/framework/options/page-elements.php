@@ -913,7 +913,11 @@
 		echo '<div class="comment-box">';
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) {
+<<<<<<< HEAD
 				//comments_template();
+=======
+				comments_template();
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 			}
 		echo '</div>';
 		endwhile;

@@ -68,10 +68,16 @@ get_header ();
 							//if($slider_type <> 'Layer-Slider'){
 								if($slider_type_album <> '786512'){ ?>
 								<!--Now Playing Start-->
+<<<<<<< HEAD
 								<!--replace featured sermon with 最近讲道-->
 								<section class="featured-sermon">
 									<div class="container">
 										<strong class="title"><?php _e('最近讲道','crunchpress');?></strong>
+=======
+								<section class="featured-sermon">
+									<div class="container">
+										<strong class="title"><?php _e('Featured Sermon','crunchpress');?></strong>
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 										<figure class="main-gallery-slider playlist-main-slider-cp">
 											<?php echo cp_album_class::sermons_play_list($slider_type_album);
 											if($slider_type_album <> ''){

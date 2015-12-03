@@ -174,11 +174,15 @@
 			$font_google_cp = '';
 			$font_google = get_themeoption_value('font_google','typography_settings');
 			$font_google_cp = str_replace("-", " ", $font_google);
+<<<<<<< HEAD
 
 			//cancel Body Font Family
 			//f($font_google <> 'Default'){ echo 'body, .heading-2 h5, .widget a, input, button, select, textarea, .pagination-all.pagination ul > li > a, .pagination ul > li > span, .latest-event-box .frame .caption .text-box p, .text-area ul li a strong{ font-family:"'.$font_google_cp.'" !important;}'; }else{ 
 
 			if($font_google <> 'Default'){ echo 'body, .heading-2 h5, .widget a, input, button, select, textarea, .pagination-all.pagination ul > li > a, .pagination ul > li > span, .latest-event-box .frame .caption .text-box p, .text-area ul li a strong{ font-family:"droid_sansregular", Arial, Verdana, Helvetica, sans-serif !important;}'; }else{ 
+=======
+			if($font_google <> 'Default'){ echo 'body, .heading-2 h5, .widget a, input, button, select, textarea, .pagination-all.pagination ul > li > a, .pagination ul > li > span, .latest-event-box .frame .caption .text-box p, .text-area ul li a strong{ font-family:"'.$font_google_cp.'" !important;}'; }else{ 
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 			echo '';
 			}
 			
@@ -188,6 +192,7 @@
 			if($select_layout_cp == 'box_layout'){ echo '.boxed{background:'.$boxed_scheme.';}'; }
 			
 			//Heading Font Family
+<<<<<<< HEAD
 			//cancel $font_google_heading
 			//if($font_google_heading <> 'Default'){ echo ' .latest-event .view-calender, .btn-purchase, .btn-submit-news, strong.title, .text-area strong.title a, h1, h2, h3, h4, h5, h6{ font-family:"'.$font_google_heading.'" !important;}'; }else{ echo 'h1, h2, h3, h4, h5, h6{}';}
 			$font_google_heading = get_themeoption_value('font_google_heading','typography_settings');
@@ -198,6 +203,14 @@
 
 			//cancel $menu_font_google here 
 			if($menu_font_google <> 'Default'){ echo 'a.readmore, #nav li a, .navbar ul{font-family:"droid_sansregular", Arial, Verdana, Helvetica, sans-serif !important;}';}else{ echo '#nav{font:16px/56px "open_sansregular",Arial, Helvetica,serif;}';}
+=======
+			$font_google_heading = get_themeoption_value('font_google_heading','typography_settings');
+			if($font_google_heading <> 'Default'){ echo ' .latest-event .view-calender, .btn-purchase, .btn-submit-news, strong.title, .text-area strong.title a, h1, h2, h3, h4, h5, h6{ font-family:"'.$font_google_heading.'" !important;}'; }else{ echo 'h1, h2, h3, h4, h5, h6{}';}
+			
+			//Menu Font Family
+			$menu_font_google = get_themeoption_value('menu_font_google','typography_settings');
+			if($menu_font_google <> 'Default'){ echo 'a.readmore, #nav li a, .navbar ul{font-family:"'.$menu_font_google.'" !important;}';}else{ echo '#nav{font:16px/56px "Noto Serif",serif;}';}
+>>>>>>> ed227fcd7fba396c647fab5258e5b0791b0bc4fe
 			
 		echo '</style>';
 		//Style Tag End
